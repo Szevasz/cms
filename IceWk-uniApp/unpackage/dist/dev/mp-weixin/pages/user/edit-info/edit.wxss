@@ -1,0 +1,31 @@
+
+.c-wrap.data-v-6f5d16ba {
+	padding: 20rpx;
+	background-color: #ffffff;
+}
+.bind-mobile.data-v-6f5d16ba {
+	display: flex;
+}
+
+/* 标签 */
+.tag-box.data-v-6f5d16ba {
+}
+.tag-box .tag.data-v-6f5d16ba {
+	padding: 10rpx 20rpx;
+	border-radius: 20rpx;
+	font-size: 24rpx;
+	display: inline-block;
+	margin-right: 20rpx;
+	margin-bottom: 20rpx;
+	background-color: #ffebe5;
+}
+.tag-box .tag.data-v-6f5d16ba:nth-child(2n) {
+	background-color: #ecf9f2;
+}
+.tag-box .tag.data-v-6f5d16ba:nth-child(3n) {
+	background-color: #fff7e5;
+}
+.tag-box .tag.data-v-6f5d16ba:nth-child(5n) {
+	background-color: #b3e0ff;
+}
+

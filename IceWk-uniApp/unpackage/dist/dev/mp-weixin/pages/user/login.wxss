@@ -1,0 +1,609 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 主题颜色 */
+.margin-b5.data-v-802e0a44 {
+  margin-bottom: 5rpx;
+}
+.margin-b10.data-v-802e0a44 {
+  margin-bottom: 10rpx;
+}
+.margin-b15.data-v-802e0a44 {
+  margin-bottom: 15rpx;
+}
+.margin-b20.data-v-802e0a44 {
+  margin-bottom: 20rpx;
+}
+.margin-b25.data-v-802e0a44 {
+  margin-bottom: 25rpx;
+}
+.margin-b30.data-v-802e0a44 {
+  margin-bottom: 30rpx;
+}
+.margin-b40.data-v-802e0a44 {
+  margin-bottom: 40rpx;
+}
+.margin-b60.data-v-802e0a44 {
+  margin-bottom: 60rpx;
+}
+.margin-b80.data-v-802e0a44 {
+  margin-bottom: 80rpx;
+}
+.margin-b100.data-v-802e0a44 {
+  margin-bottom: 100rpx;
+}
+.margin-r5.data-v-802e0a44 {
+  margin-right: 5rpx;
+}
+.margin-r10.data-v-802e0a44 {
+  margin-right: 10rpx;
+}
+.margin-r15.data-v-802e0a44 {
+  margin-right: 15rpx;
+}
+.margin-r20.data-v-802e0a44 {
+  margin-right: 20rpx;
+}
+.margin-r25.data-v-802e0a44 {
+  margin-right: 25rpx;
+}
+.margin-r30.data-v-802e0a44 {
+  margin-right: 30rpx;
+}
+.margin-r40.data-v-802e0a44 {
+  margin-right: 40rpx;
+}
+.margin-r60.data-v-802e0a44 {
+  margin-right: 60rpx;
+}
+.font-18.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 18rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-20.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 20rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-22.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 22rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-24.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 24rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-26.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 26rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-28.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 28rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-30.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 30rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-32.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 32rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-34.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 34rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-36.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 36rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-38.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 38rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-40.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 40rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-46.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 46rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-50.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 50rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-60.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 60rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-80.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 80rpx;
+  font-family: Droid Sans Fallback;
+}
+.text-left.data-v-802e0a44 {
+  text-align: left;
+}
+.text-center.data-v-802e0a44 {
+  text-align: center;
+}
+.text-right.data-v-802e0a44 {
+  text-align: right;
+}
+.color-white.data-v-802e0a44 {
+  color: #FFFFFF;
+}
+.color-red.data-v-802e0a44 {
+  color: #dc0000;
+}
+.font-weight-400.data-v-802e0a44 {
+  font-weight: 400;
+}
+.font-weight-500.data-v-802e0a44 {
+  font-weight: bold;
+}
+.spacing-20.data-v-802e0a44 {
+  width: 750rpx;
+  height: 20rpx;
+  background-color: #f8f8f8;
+}
+.radius-10.data-v-802e0a44 {
+  border-radius: 10rpx;
+}
+.radius-20.data-v-802e0a44 {
+  border-radius: 20rpx;
+}
+.radius-30.data-v-802e0a44 {
+  border-radius: 30rpx;
+}
+.radius-circle.data-v-802e0a44 {
+  border-radius: 50%;
+}
+.radius-height.data-v-802e0a44 {
+  border-radius: 10000px;
+}
+.vs-flex-item.data-v-802e0a44 {
+  flex: 1;
+}
+.vs-space-between.data-v-802e0a44 {
+  justify-content: space-between;
+}
+.vs-space-around.data-v-802e0a44 {
+  justify-content: space-around;
+}
+.vs-space-center.data-v-802e0a44 {
+  justify-content: center;
+}
+.vs-space-end.data-v-802e0a44 {
+  justify-content: flex-end;
+}
+.vs-row.data-v-802e0a44 {
+  flex-direction: row;
+}
+.vs-column.data-v-802e0a44 {
+  flex-direction: column;
+}
+.vs-align-end.data-v-802e0a44 {
+  align-items: flex-end;
+}
+.vs-align-center.data-v-802e0a44 {
+  align-items: center;
+}
+.vs-align-start.data-v-802e0a44 {
+  align-items: flex-start;
+}
+.vs-item-hover.data-v-802e0a44 {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.vs-btn-hover.data-v-802e0a44 {
+  opacity: 0.8;
+}
+.color-base.data-v-802e0a44 {
+  color: #50A1FF;
+}
+.bg-color-base.data-v-802e0a44 {
+  background-color: #50A1FF;
+}
+/* 行为相关颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.bg-img.data-v-802e0a44 {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+.list.data-v-802e0a44 {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  padding-left: 70rpx;
+  padding-right: 70rpx;
+}
+.list-call.data-v-802e0a44 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rpx;
+  border-bottom: 1px solid #F5F5F5;
+}
+.list-call .img.data-v-802e0a44 {
+  width: 40rpx;
+  height: 40rpx;
+}
+.list-call .sl-input.data-v-802e0a44 {
+  flex: 1;
+  text-align: left;
+  font-size: 32rpx;
+  margin-left: 16rpx;
+}
+.yzm.data-v-802e0a44 {
+  color: #999;
+  font-size: 24rpx;
+  line-height: 50rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  width: auto;
+  height: 50rpx;
+  border: 1rpx solid #999;
+  border-radius: 50rpx;
+}
+.yzms.data-v-802e0a44 {
+  color: #999999 !important;
+  border: 1rpx solid #999999;
+}
+.agreenment.data-v-802e0a44 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+  margin-top: 80rpx;
+  color: #999;
+  text-align: center;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.agreenment text.data-v-802e0a44 {
+  font-size: 24rpx;
+  margin-left: 15rpx;
+  margin-right: 15rpx;
+}
+.con-wrap.data-v-802e0a44 {
+  position: absolute;
+  bottom: 30rpx;
+  top: 30rpx;
+  width: 100%;
+  padding: 30rpx;
+  text-align: center;
+}
+.con-wrap .title.data-v-802e0a44 {
+  font-size: 90rpx;
+  font-weight: bold;
+  margin-top: 150rpx;
+}
+.con-wrap .sub-title.data-v-802e0a44 {
+  font-size: 32rpx;
+}
+.con-wrap .bottom-wrap.data-v-802e0a44 {
+  margin-top: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.con-wrap .bottom-wrap .agreement.data-v-802e0a44 {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+}
+.con-wrap .bottom-wrap .login-wrap.data-v-802e0a44 {
+  position: absolute;
+  bottom: 30rpx;
+  width: calc(100% - 60rpx);
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * 使用的时候，请将下面的一行复制到您的uniapp项目根目录的uni.scss中即可
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/* 主题颜色 */
+.margin-b5.data-v-802e0a44 {
+  margin-bottom: 5rpx;
+}
+.margin-b10.data-v-802e0a44 {
+  margin-bottom: 10rpx;
+}
+.margin-b15.data-v-802e0a44 {
+  margin-bottom: 15rpx;
+}
+.margin-b20.data-v-802e0a44 {
+  margin-bottom: 20rpx;
+}
+.margin-b25.data-v-802e0a44 {
+  margin-bottom: 25rpx;
+}
+.margin-b30.data-v-802e0a44 {
+  margin-bottom: 30rpx;
+}
+.margin-b40.data-v-802e0a44 {
+  margin-bottom: 40rpx;
+}
+.margin-b60.data-v-802e0a44 {
+  margin-bottom: 60rpx;
+}
+.margin-b80.data-v-802e0a44 {
+  margin-bottom: 80rpx;
+}
+.margin-b100.data-v-802e0a44 {
+  margin-bottom: 100rpx;
+}
+.margin-r5.data-v-802e0a44 {
+  margin-right: 5rpx;
+}
+.margin-r10.data-v-802e0a44 {
+  margin-right: 10rpx;
+}
+.margin-r15.data-v-802e0a44 {
+  margin-right: 15rpx;
+}
+.margin-r20.data-v-802e0a44 {
+  margin-right: 20rpx;
+}
+.margin-r25.data-v-802e0a44 {
+  margin-right: 25rpx;
+}
+.margin-r30.data-v-802e0a44 {
+  margin-right: 30rpx;
+}
+.margin-r40.data-v-802e0a44 {
+  margin-right: 40rpx;
+}
+.margin-r60.data-v-802e0a44 {
+  margin-right: 60rpx;
+}
+.font-18.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 18rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-20.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 20rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-22.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 22rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-24.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 24rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-26.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 26rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-28.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 28rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-30.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 30rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-32.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 32rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-34.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 34rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-36.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 36rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-38.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 38rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-40.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 40rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-46.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 46rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-50.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 50rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-60.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 60rpx;
+  font-family: Droid Sans Fallback;
+}
+.font-80.data-v-802e0a44 {
+  font-style: normal;
+  font-size: 80rpx;
+  font-family: Droid Sans Fallback;
+}
+.text-left.data-v-802e0a44 {
+  text-align: left;
+}
+.text-center.data-v-802e0a44 {
+  text-align: center;
+}
+.text-right.data-v-802e0a44 {
+  text-align: right;
+}
+.color-white.data-v-802e0a44 {
+  color: #FFFFFF;
+}
+.color-red.data-v-802e0a44 {
+  color: #dc0000;
+}
+.font-weight-400.data-v-802e0a44 {
+  font-weight: 400;
+}
+.font-weight-500.data-v-802e0a44 {
+  font-weight: bold;
+}
+.spacing-20.data-v-802e0a44 {
+  width: 750rpx;
+  height: 20rpx;
+  background-color: #f8f8f8;
+}
+.radius-10.data-v-802e0a44 {
+  border-radius: 10rpx;
+}
+.radius-20.data-v-802e0a44 {
+  border-radius: 20rpx;
+}
+.radius-30.data-v-802e0a44 {
+  border-radius: 30rpx;
+}
+.radius-circle.data-v-802e0a44 {
+  border-radius: 50%;
+}
+.radius-height.data-v-802e0a44 {
+  border-radius: 10000px;
+}
+.vs-flex-item.data-v-802e0a44 {
+  flex: 1;
+}
+.vs-space-between.data-v-802e0a44 {
+  justify-content: space-between;
+}
+.vs-space-around.data-v-802e0a44 {
+  justify-content: space-around;
+}
+.vs-space-center.data-v-802e0a44 {
+  justify-content: center;
+}
+.vs-space-end.data-v-802e0a44 {
+  justify-content: flex-end;
+}
+.vs-row.data-v-802e0a44 {
+  flex-direction: row;
+}
+.vs-column.data-v-802e0a44 {
+  flex-direction: column;
+}
+.vs-align-end.data-v-802e0a44 {
+  align-items: flex-end;
+}
+.vs-align-center.data-v-802e0a44 {
+  align-items: center;
+}
+.vs-align-start.data-v-802e0a44 {
+  align-items: flex-start;
+}
+.vs-item-hover.data-v-802e0a44 {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.vs-btn-hover.data-v-802e0a44 {
+  opacity: 0.8;
+}
+.color-base.data-v-802e0a44 {
+  color: #50A1FF;
+}
+.bg-color-base.data-v-802e0a44 {
+  background-color: #50A1FF;
+}
+/* 行为相关颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content.data-v-802e0a44 {
+  padding: 100rpx;
+}
+.logo.data-v-802e0a44 {
+  text-align: center;
+}
+.logo image.data-v-802e0a44 {
+  height: 200rpx;
+  width: 200rpx;
+  margin: 0 0 60rpx;
+}
+.uni-form-item.data-v-802e0a44 {
+  margin-bottom: 40rpx;
+  padding: 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+.uni-form-item .uni-input.data-v-802e0a44 {
+  font-size: 30rpx;
+  padding: 7px 0;
+}
+button[type="primary"].data-v-802e0a44 {
+  background-color: #17BEFE;
+  border-radius: 0;
+  font-size: 34rpx;
+  margin-top: 60rpx;
+}
+.links.data-v-802e0a44 {
+  text-align: center;
+  margin-top: 40rpx;
+  font-size: 26rpx;
+  color: #999;
+}
+.links view.data-v-802e0a44 {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10rpx;
+}
+.links .link-highlight.data-v-802e0a44 {
+  color: #17BEFE;
+}
+

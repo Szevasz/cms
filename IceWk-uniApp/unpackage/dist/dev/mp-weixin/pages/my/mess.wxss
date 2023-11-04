@@ -1,0 +1,10 @@
+.choose-item {
+    display: flex;
+    align-items: center;
+    padding: 20rpx;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.choose-item:last-child {
+    border: 0;
+}
